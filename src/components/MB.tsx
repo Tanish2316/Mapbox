@@ -8,7 +8,7 @@ const MapboxCountyExplorer: React.FC = () => {
     const [selectedCity, setSelectedCity] = useState<{ name: string; code: string }[]>([]);
 
     useEffect(() => {
-        mapboxgl.accessToken = 'pk.eyJ1IjoiamJnYXVyYXYiLCJhIjoiY21mbTNubWd5MDNtMDJsc2RqaW00dGhzeCJ9.O3WAsIbIi5bwvgOEA8QvvQ';
+        mapboxgl.accessToken = 'pk.eyJ1IjoidGFuaXNoMjMxNiIsImEiOiJjbWcwbzNsZGEwZjF0MmxuMDQyb3lkNG1hIn0.fTHUnYuqUpS_WSyiIvv37g';
 
         const map = new mapboxgl.Map({
             container: mapContainerRef.current!,
